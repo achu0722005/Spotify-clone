@@ -74,16 +74,16 @@ It includes a login page with a loading screen, and a basic music player with pl
 ## 📸 Screenshots
 
 ### 🔑 Login Page  
-![Login Page](spotify_clone/images_used/Spotify-login.png)  
+![Login Page](spotify_clone/images_used/Spotify_login.png)  
 
 ### 🎶 Dashboard  
-![Spotify Dashboard](spotify_clone/images_used/Spotify-dashboard.png)  
+![Spotify Dashboard](spotify_clone/images_used/Spotify_dashboard.png)  
 
 ### ⏳ Loading Animation  
-![Loading Animation](spotify_clone/images_used/spotify-loading.png)  
+![Loading Animation](spotify_clone/images_used/Spotify_loading.png)  
 
 ### 🖼️ signup page  
-![Signup page](spotify_clone/images_used/signin.png)  
+![Signup page](spotify_clone/images_used/Signin.png)  
  
 ```
 
