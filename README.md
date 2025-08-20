@@ -83,7 +83,7 @@ It includes a login page with a loading screen, and a basic music player with pl
 ![Loading Animation](spotify_clone/images_used/Spotify_loading.png)  
 
 ### 🖼️ signup page  
-![Signup page](spotify_clone/images_used/Signin.png)  
+![Signup page](spotify_clone/images_used/Spotify_signin.png)  
  
 ```
 
