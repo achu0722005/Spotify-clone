@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+}
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1db954;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.container{
+    background: rgba(14,15,14,255);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: rgba(18,18,18,255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 533px;
+    border-radius: 10px;
+    transition: box-shadow ease 0.3s;
+    box-shadow: 0px 0px 17px 3px #1d1c1c;
+    /* box-shadow: 0px 0px 17px 3px #504d4d; */
+}
+.box:hover{
+    box-shadow: 0px 0px 17px 8px #3b3a3a;
+}
+.logoimage{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translate(33px, -65px);
+    margin-left: -76px;
+    margin-top: 40px;
+    gap: 1px;
+}
+.logoimage > a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    transition: transform 0.3s ease,color 0.3s ease;
+}
+.logoimage a:hover{
+    color: #34ac57;
+    transform: scale(1.2);
+}
+.logoimage img{
+    /* filter: //; */
+    width: 100px;
+    filter: invert(1);
+}
+.box h2{
+    transform: translateY(-83px);
+    font-weight: bold;
+    color: #34ac57;
+    font-size: 38px;
+}
+.box input{
+    margin: 10px;
+    margin-top: 10px;
+    transform: translateY(10px);
+    border: none;
+    border-radius: 10px;
+    border: 1px solid #1d1d1d;
+    transform: translateY(-86px);
+    width: 75%;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    background: rgba(27,28,28,255);
+    color: #aaa;
+}
+button{
+    width: 75%;
+    transform: translateY(-60px);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #34bc5e;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+        background-color: #89de85;
+}
+button:active{
+    opacity: 3px;
+    background: #0f5c24;
+}
+.box p{
+    transform: translateY(-48px);
+    color: #e8e7e6;
+}
+.box p a{
+    text-decoration: none;
+    cursor: pointer;
+}
+span{
+    display: inline;
+    margin-left: 9px;
+}
+span a:hover{
+    color: rgb(21, 159, 26);
+}
